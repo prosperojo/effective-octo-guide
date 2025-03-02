@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Prosper's Weather App</h2>
+        <input type="text" id="city" placeholder="Enter city name...">
+        <button onclick="fetchWeather()">Fetch Weather</button>
+        <div class="weather-info" id="weather"></div>
+        <div class="history" id="history"></div>
+    </div><br>
+    <div class="history" id="history" style="display: none;"></div>
+    <button id="toggleHistory">Past Searches</button>
+    <button id="clearHistory">Clear History</button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

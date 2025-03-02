@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poly:opsz,wght@12..96,200..800&family=Poly:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap');
+body {
+    font-family: 'Poly';
+    background: #121212;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background-size: cover;
+    background: no-repeat center center fixed;
+    transition: background-image 2s ease-in;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background: #424141;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Poly';
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 10px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    outline: none;
+    font-family: 'Poly';
+}
+
+button:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-info {
+    margin-top: 20px;
+}
+
+.history {
+    margin-top: 20px;
+    text-align: left;
+}
