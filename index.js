@@ -64,8 +64,8 @@ const images = [
     changeBackground();
 
     document.getElementById('clearHistory').addEventListener('click', function() {
-        localStorage.removeItem('weatherHistory'); // Clear stored history
-        document.getElementById('history').innerHTML = ''; // Clear UI
+        localStorage.removeItem('weatherHistory');
+        document.getElementById('history').innerHTML = ''; // clears UI
     });
 
     document.getElementById('toggleHistory').addEventListener('click', function() {
