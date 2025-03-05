@@ -54,13 +54,13 @@ const images = [
 
     function changeBackground() {
         document.body.style.backgroundImage = images[index];
-        index = (index + 1) % images.length; // Loop back to first image
+        index = (index + 1) % images.length; // to loop back to first image
     }
 
-    // Change background every 3 seconds
+    // Changes background every 6 seconds
     setInterval(changeBackground, 6000);
 
-    // Set initial background
+    // Sets first background
     changeBackground();
 
     document.getElementById('clearHistory').addEventListener('click', function() {
